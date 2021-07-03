@@ -126,6 +126,10 @@ const FooterSection = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  @media only screen and (max-width: 700px) {
+    font-size: 0.4rem;
+    width: 98vw;
+  }
 `;
 
 const Copyright = styled.div`
