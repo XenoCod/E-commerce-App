@@ -1,10 +1,8 @@
 import { CheckCircleIcon } from "@heroicons/react/solid";
 
-import { useHistory } from "react-router-dom";
 import Header from "../components/Header";
 
 function success() {
-  const history = useHistory();
   return (
     <div className="bg-gray-100 h-screen">
       <Header />
@@ -22,9 +20,6 @@ function success() {
             your item is shipped, if you would like to check the status of
             order(s) please press the link below.
           </p>
-          <button onClick={() => history.push("/")} className="button mt-8">
-            Go to Home
-          </button>
         </div>
       </main>
     </div>
