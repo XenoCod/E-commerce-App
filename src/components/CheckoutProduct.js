@@ -67,6 +67,7 @@ function CheckoutProduct({
           <div>
             <img
               loading="lazy"
+              alt=" Has Prime"
               className="w-12"
               src="https://links.papareact.com/fdw"
             />

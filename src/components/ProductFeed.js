@@ -24,6 +24,7 @@ function ProductFeed({ products }) {
         ))}
 
       <img
+        alt="offer"
         data-aos="slide-left"
         className="md:col-span-full"
         src="https://links.papareact.com/dyz"
